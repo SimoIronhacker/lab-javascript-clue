@@ -162,7 +162,7 @@ function revealMystery() {
   let weapon = pickMystery(cardTypes.weapon);
   let room = pickMystery(cardTypes.rooms);
 
-  return {suspect:suspect,weapon:weapon,room:room,}
+  return `${suspect.name} ${suspect.lastName} ${suspect.weapon} ${suspect.room}`
 };
 
 
